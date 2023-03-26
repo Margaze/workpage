@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;700&family=Sora:wght@100;400;600;700&display=swap" rel="stylesheet">
+  <title>MARGAZE</title>
+  <script src="https://kit.fontawesome.com/b2866db6e1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="image/logo.svg" class="logo">
+        <ul id="sidemenu">
+        <li><a href="#header">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#services">Trabalho</a></li>
+        <li><a href="#telecom">Telecom / IT</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+      </ul>
+      <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <h3>Gerente de Contas Corporativas</h3>
+        <h1>Olá, sou <span>Marcio Azevedo</span></h1>
+      </div>
+    </div>
+    </div>
+    <!-- --------sobre------------>
+    <div id="sobre">
+      <div class="container">
+        <div class="bg">
+        <div class="row">
+          <div class="sobre-col-1">
+            <img src="image/pngmarcio.png" alt="">
+          </div>
+            <div class="sobre-col-2">
+          
+              <h1 class="sub-title">Sobre</h1>
+              <p>Gerente de contas, com mais de 15 anos de atuação na área comercial, construindo parcerias com a entrega de valor e customizando as melhores soluções em tecnologia e telecomunicações para Empresas e Órgãos Públicos.</p> 
+              <p>Grande entusiasta e estudante da área de desenvolvimento de software e aplicações, adepto incondicional do <i>mindset lifelong learnig.</i></p>
+              <p>Sejam bem vindos a este espaço que uso não só para me apresentar, mas também para aprimorar meus estudos "Dev" com a construção desse site e compartilhar informações e noticias da área.</p>
+
+                
+
+              <div class="tab-titles">
+                <!-- <p class="tab-links " onclick="opentab('skills')">Habilidades</p> -->
+                <p class="tab-links active-link" onclick="opentab('experience')">
+                  <i class="fa-solid fa-list-check"></i>
+                  <strong>Experiência</strong></p>
+                <p class="tab-links" onclick="opentab('education')">
+                  <i class="fa-solid fa-user-graduate"></i>
+                  <strong>Educação</strong></p>
+              </div>
+
+              <!-- <div class="tab-contents " id="skills">
+                <ul>
+                  <li><span>Gestão de Carteira</span><br>Foco no Sucesso do cliente</li>
+                  <li><span>Resolução de Problemas</span><br>O relacionamento e satisfação do cliente é Prioridade</li>
+                  <li><span>Negociação</span><br>relação ganha-ganha, transparencia e fechamento de um compromisso.</li>
+                </ul>
+              </div> -->
+
+              <!-- Perfil : 
+              Gerente de Contas Farmer 70% 
+            Gerente de Contas Hunter 30% -->
+            
+
+              <div class="tab-contents active-tab" id="experience">
+                <ul>
+                  <li><span>2006 - 2012</span><br>Vendedor especializado (Portugal) - <i>Hardware/Software/Peripherals</i></li>
+                  <li><span>2013 - 2023</span><br>Gerente de Contas Pleno (Brasil) - Telecomunicações / Tecnologia </li>
+                  <li><span>.</span><br>.</li>
+                  <li><span>.</span><br>.</li>
+                </ul>
+              </div>
+
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li><span>2015</span><br>Graduado em Gestão Empresarial</li>
+                  <li><span>2015</span><br>Formação CISCO CCNA R&S 5.0</li>
+                  <li><span>2018</span><br>MBA Gestão de Tecnologia da Informação</li>
+                  <li><span>2023</span><br>Desenvolvimento - em construção...</li>
+              </ul>
+            </div>
+          </div>       
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- ----------services----------- -->
+
+    <div id="services">
+      <div class="container">
+        <h1 class="sub-title">Trabalho</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-people-roof"></i>
+            <h2>Foco no Cliente</h2>
+
+            <p> &#187	Foco no relacionamento com o cliente</p>                
+            <p> &#187	Acompanhamento da jornada positiva do cliente</p>
+              
+            
+            <!-- <a href="#">Saiba mais</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-trophy"></i>
+            <h2>Gestão de carteira B2B</h3>
+              Resultados: 
+              <h3>+ 3.5M / ano - Privado</h3>
+              <!-- <a href="#">Saiba mais</a> -->
+          </div>
+          <div>
+            <i class="fa-solid fa-trophy"></i>
+            <h2>Gestão de carteira Gov</h3>
+              Resultados: 
+            <h3>+ 1M / ano - Público</h2>
+            <!-- <a href="#">Saiba mais</a> -->
+          </div>
+          
+       </div>
+      </div>
+    </div>
+   
+
+
+
+
+
+
+    <!-- -----  Telecom ----------- -->
+
+<div id="telecom">
+  <div class="container">
+        <h1 class="sub-title">Telecom / IT</h1>
+  <div class="news-list">
+  <div class="news">
+  <img src="image/Fiber-Internet2.jpg" >
+    <div class="layer">
+    <div class="btn-modal"> 
+
+      <!-- <button id="link" class="btn3 "> <a><i class="fa-solid fa-up-right-from-square"></i></a></button> -->
+
+      
+      <!-- <div  class="modal-telecom" id="link"> -->
+      <div id="link">      
+        <button data-text="Awesome" class="button">
+          <span class="actual-text">
+            &nbsp;SOLUÇÃO DADOS&nbsp;<br>
+            &nbsp;Link Dedicado&nbsp;<br>
+            &nbsp;Lan To Lan&nbsp;
+          </span>
+          <span>
+            
+            <p>saiba mais <i class="fa-solid fa-arrow-up-right-from-square"></i></p> 
+          </span>
+         </button>
+      </div>
+      
+      <dialog class="modal-links">
+        <div class="container-dialog">
+                                 
+          <div class="tab-titles">
+          <p class="tab-links active-link" onclick="opentab('linkdedicado')">
+            <i class="fa-solid fa-file-lines"></i> 
+            <strong>LINK DEDICADO</strong>
+          </p>
+          <p class="tab-links " onclick="opentab('lan2lan')">
+            <i class="fa-solid fa-file-lines"></i>
+            <strong>LAN TO LAN</strong>
+          </p>
+          <p class="tab-links" onclick="opentab('transporte')">
+            <i class="fa-solid fa-file-lines"></i>
+            <strong>TRANSPORTE PTT </strong>
+          </p>
+        </div>
+                        
+        <div class="tab-contents active-tab" id="linkdedicado">
+
+            <ul>
+            <li><span>Velocidade e confiabilidade:</span> O link dedicado é uma conexão exclusiva desenhada para Corporações que necessitam de alta disponibilidade, estabilidade e garantia de banda, o que resulta em uma conexão mais rápida e confiável.</li>
+            <li><span>Baixa latência:</span> Com um link dedicado, você pode desfrutar de baixa latência, o que significa que as solicitações e respostas na Internet acontecem mais rapidamente. Isso é particularmente importante para aplicativos e serviços que requerem uma conexão rápida e confiável, como videoconferência, transmissão de vídeo em tempo real e operações financeiras.</li>
+            <li><span>Segurança:</span> Maior controle sobre sua segurança na Internet, fator importante se você lida com informações confidenciais ou sensíveis, como informações de clientes e contábil.</li>
+            <li><span>Suporte técnico especializado:</span> Serviços de Link Dedicado oferecem suporte técnico 24 horas por dia, 7 dias por semana, para ajudar a garantir que sua conexão esteja sempre funcionando corretamente. Outro fator importante é o monitoramento da disponibilidade do Link aliada com a pró-atividade do suporte. Em casos extremos onde ocorra indisponibilidade do Link Dedicado, diferente de um Link não dedicado, a causa é prontamente identificada pelo NOC da operadora (<i>Network Operation Center</i>) , tornando as ações de correção muito mais rápidas, fator esse que permite a garantia de tempo de resposta (<i>M.T.T.R.</i>)  e acordos de níveis de serviço (<i>S.L.A.</i>) diferenciados.</li>
+          </ul>
+         
+         
+                        
+        </div>
+
+        <div class="tab-contents" id="lan2lan">
+          <ul>
+            <li><span>Matriz e filiais interligadas</span><br>Com uma conexão LAN to LAN, as redes locais podem compartilhar recursos e informações com muito mais rapidez e eficiência, proporcionando alta performance, economia de recursos e confiabilidade da rede.</li>
+              <li><span>Maior segurança</span><br>A comunicação entre duas redes locais via LAN to LAN é feita através de uma conexão privada e segura, reduzindo o risco de ataques cibernéticos e invasões de privacidade.</li>
+              <li><span>Melhor gerenciamento de recursos:</span><br>Com uma conexão LAN to LAN, as redes locais podem compartilhar recursos, como impressoras e servidores, o que pode melhorar o gerenciamento e o acesso a esses recursos.</li>
+              <li><span>Maior flexibilidade: </span><br>Uma conexão LAN to LAN pode ser configurada para atender às necessidades específicas da empresa ou organização, permitindo que ela personalize a conexão de acordo com suas necessidades e recursos disponíveis.</li>
+              
+           </ul>
+           
+         </div>
+
+        <div class="tab-contents" id="transporte">
+          <ul>
+            <li><span>Transporte PTT-SP</span><br>Melhor desempenho na conexão direta com seus pares com presença no PTT. O IX.br proporciona a ligação direta, permitindo que muitos Sistemas Autonômos (AS) troquem tráfego diretamente. A interligação de diversos AS em um IX, ou Ponto de Troca de Tráfego (PTT), simplifica o trânsito da Internet e diminui o número de redes até um determinado destino. </li>
+          
+            <li><span>Maior velocidade de conexão: </span><br>Ao usar o PTT-SP, a conexão com a internet é direta e mais rápida, o que significa que os usuários podem acessar os conteúdos com mais agilidade e eficiência.</li>
+            <li><span>Menor latência: </span><br>Ao usar o PTT-SP, a latência da conexão é reduzida, com isso a resposta aos comandos é mais rápida e a navegação é mais fluida.</li>
+            <li><span>Observação:</span><br>No entanto, é importante lembrar que a instalação e configuração do serviço podem exigir conhecimentos técnicos avançados, e que o custo da instalação e manutenção da conexão pode ser mais alto do que o de uma conexão padrão.</li>
+          </u>
+        </div> 
+        <button class="btn-close"><i class="fa-regular fa-circle-xmark"></i></button>
+      </div>
+        </dialog>
+               
+    </div>
+    </div>
+   </div>
+
+    <div class="news">
+      <img src="image/PABXIP3.jpg" >
+      <div class="layer"> 
+        <div class="btn-modal">
+          <div id="pabx-cloud">
+            <button data-text="Awesome" class="button">
+                <span class="actual-text">
+                  &nbsp;SOLUÇÃO VOZ&nbsp;<br>
+                  &nbsp;Pabx Cloud&nbsp;<br>
+                </span>
+                <span>
+                  <p>saiba mais  <i class="fa-solid fa-arrow-up-right-from-square"></i></p> 
+                </span>
+              </button>
+          </div>
+
+          <dialog class="modal-voz">  
+            <div class="container-dialog">               
+            <div class="tab-titles">
+            <p class="tab-links active-link " onclick="opentab('pabx')">
+              <i class="fa-solid fa-file-lines"></i>
+              <strong>PABX CLOUD</strong>
+            </p>
+            <p class="tab-links " onclick="opentab('did')">
+              <i class="fa-solid fa-file-lines"></i>
+              <strong>NÚMERO DID</strong>
+            </p>
+            
+          </div>
+                          
+          <div class="tab-contents active-tab" id="pabx">
+            <ul>
+              <li>O <strong>PABX Cloud</strong> é uma solução telefônica baseada na nuvem que oferece diversas vantagens para empresas de todos os tamanhos. </li>   
+              <li><span>Flexibilidade: </span><br>Com o PABX Cloud, os usuários podem acessar as funcionalidades do sistema de qualquer lugar com acesso à internet, uma solução flexível para empresas que têm funcionários em diferentes locais ou que precisam de mobilidade.</li>   
+              <li><span>Redução de custos: </span><br>O PABX Cloud elimina a necessidade de investir em equipamentos caros e na manutenção de uma central telefônica local, reduzindo significativamente os custos de comunicação.</li>  
+              <li><span>Escalabilidade</span><br>Com o PABX Cloud, as empresas podem aumentar ou diminuir o número de linhas telefônicas e ramais conforme a necessidade, sem precisar adquirir novos equipamentos ou fazer alterações na infraestrutura.</li> 
+              <li><span>Funcionalidades avançadas: </span><br>O PABX Cloud oferece diversas funcionalidades avançadas, como gravação de chamadas, correio de voz, encaminhamento de chamadas, relatórios, salas de conferência e muito mais, o que pode melhorar significativamente a qualidade do atendimento ao cliente e a gestão.</li> 
+
+          </div>
+  
+          <div class="tab-contents" id="did">
+            <ul>
+                <li><span>Número DID <i>(Direct Inward Dialing)</i></span><br>Conhecido também como número Virtual DID, é um numero virtual de uma determinada região, como por exemplo o DDD (011) São Paulo - Capital, onde sua operação independente de onde esteja fisicamente, pode marcar presença em Capitais estratégicas ao seu negócio.</li>
+                Exemplo: Sua equipe esta localmente no interior e São Paulo, mas vende para todo Brasil. A empresa pode utilizar de DID 011 São Paulo, 021 Rio, 071 Salvador, entre outras - facilitando para seu cliente ligar com custo local e a empresa se fazer presente nas Capitais. 
+                
+              </ul>
+            </div>
+            <button class="btn-close"><i class="fa-regular fa-circle-xmark"></i></button>
+          </div> 
+          </dialog>
+
+
+              </div>
+
+
+            </div>
+          </div>
+
+          
+    <div class="news">
+    <img src="image/Cloud-Computing.jpg" >
+    <div class="layer">
+    <div class="btn-modal">
+      <div id="cloud">
+        <button data-text="Awesome" class="button">
+          <span class="actual-text">
+            &nbsp;SOLUÇÕES CLOUD&nbsp;<br>
+            &nbsp;CO-LOCATION&nbsp;
+          </span>
+          <span class="hover-text" aria-hidden="true">
+            <p>saiba mais  <i class="fa-solid fa-arrow-up-right-from-square"></i></p> 
+          </span>
+          
+      </button>
+      </div>
+
+      <dialog class="modal-cloud">
+          <div class="container-dialog">                        
+        <div class="tab-titles">
+          <p class="tab-links active-link " onclick="opentab('cloudbackup')">
+            <i class="fa-solid fa-file-lines"></i>
+            <strong>CLOUD BACKUP <br> DISASTER RECOVERY</strong>
+          </p>
+          <!-- <p class="tab-links " onclick="opentab('disaster')">
+            <strong>DISASTER RECOVERY</strong>
+          </p> -->
+          <p class="tab-links" onclick="opentab('colocation')">
+            <i class="fa-solid fa-file-lines"></i>
+            <strong>CO-LOCATION </strong>
+          </p>
+        </div>
+                    
+    <div class="tab-contents active-tab" id="cloudbackup">
+  <ul>  
+<li>O <span>Cloud Backup</span> e o <span>Disaster Recovery</span> são soluções que utilizam a nuvem para proteger os dados e garantir a continuidade dos negócios em caso de falhas ou desastres. Algumas das vantagens de utilizar essas soluções incluem:</li>
+
+  <li><span>Segurança dos dados: </span>
+  O cloud backup e o disaster recovery utilizam tecnologias avançadas de criptografia e proteção de dados para garantir que as informações da empresa estejam seguras e protegidas contra perda, roubo ou acesso não autorizado.</li>
+
+
+<li><span>Disponibilidade dos dados:</span> Ao utilizar o cloud backup e o disaster recovery, os dados da empresa são armazenados em servidores na nuvem, o que garante que eles estejam sempre disponíveis, mesmo em caso de falhas ou desastres.</li>
+
+<li><span>Redução de custos:</span> O cloud backup e o disaster recovery podem reduzir significativamente os custos de infraestrutura e manutenção, pois não é necessário investir em servidores, armazenamento e outros equipamentos.</li>
+
+<li><span>Escalabilidade:</span> As soluções de cloud backup e disaster recovery permitem que as empresas aumentem ou diminuam a capacidade de armazenamento e processamento de dados conforme suas necessidades mudam.</li>
+
+<li><span>Rapidez na recuperação de dados:</span> Em caso de falhas ou desastres, as soluções de cloud backup e disaster recovery permitem que as empresas restaurem os dados rapidamente e voltem a operar normalmente.</li>
+
+<li><span>Flexibilidade:</span> As soluções de cloud backup e disaster recovery permitem que as empresas escolham o nível de redundância e a localização dos dados, o que garante maior flexibilidade e personalização das soluções.</li>
+
+<h3>Em resumo, o cloud backup e o disaster recovery podem oferecer às empresas uma série de benefícios em termos de segurança, disponibilidade, redução de custos, escalabilidade, rapidez na recuperação de dados e flexibilidade. Essas soluções podem ajudar as empresas a proteger seus dados e garantir a continuidade dos negócios em caso de falhas ou desastres.</h3>       
+</ul>
+</div>
+          
+                  <!-- <div class="tab-contents" id="disaster">
+                    <ul>
+                        <li><span>Disaster Recovery</span><br>Alinhado ao Cloud Backup, é vital a empresa ter um plano de recuperação. Queda brusca de energia, falhas em equipamentos, erros humanos, acidentes, desvio de conduta,desastre ambiental, são algumas das possibilidades de se parar uma operação. 
+                        O Disaster Recovery envolve uma serie de politicas e procedimentos para permitir a pronta recuperação da infraestrutura e sistemas essenciais para manter o funcionamento da empresa.</li>
+                       
+                     </ul>
+                   </div> -->
+          
+  <div class="tab-contents" id="colocation">
+      <ul>
+        <li><span>Colocation</span> é a prática de alojar os servidores e equipamentos de uma empresa em um data center de terceiros. Algumas das vantagens de utilizar colocation incluem:</li>
+
+        <li><span>Maior segurança:</span> Os data centers de colocation são projetados com várias camadas de segurança física, incluindo sistemas de vigilância, acesso restrito e proteção contra incêndios. Isso ajuda a garantir a segurança dos equipamentos da empresa.</li>
+        
+        <li><span>Melhor conectividade:</span> Os data centers de colocation estão conectados a diversas redes de provedores de internet, o que permite às empresas terem acesso a conexões de alta velocidade e maior redundância de rede.</li>
+        
+        <li><span>Redução de custos:</span> Ao optar pelo colocation, as empresas não precisam investir em infraestrutura própria, o que pode reduzir significativamente os custos de manutenção, atualização e suporte técnico.</li>
+        
+        <li><span>Escalabilidade:</span> Os data centers de colocation são projetados para oferecerem escalabilidade e flexibilidade, permitindo que as empresas possam aumentar ou diminuir sua capacidade de armazenamento e processamento de dados conforme suas necessidades mudam.</li>
+        
+        <li><span>Maior disponibilidade:</span> Os data centers de colocation oferecem alta disponibilidade e tempo de atividade, com redundância de energia e sistemas de backup para garantir que os servidores da empresa estejam sempre em funcionamento.</li>
+        
+        <li><span>Suporte técnico especializado:</span> As empresas que utilizam colocation têm acesso a suporte técnico especializado, que pode ajudá-las a solucionar problemas de infraestrutura e rede com mais rapidez e eficiência.</li>
+        
+        <h3>Em resumo, o colocation pode oferecer às empresas uma série de benefícios em termos de segurança, conectividade, escalabilidade, disponibilidade e suporte técnico, além de reduzir significativamente os custos de infraestrutura.     </h3>    
+      </ul>       
+  </div>
+                               
+                            
+        <button class="btn-close"><i class="fa-regular fa-circle-xmark"></i></button>
+      </div>
+      </dialog>
+      </div>
+    </div>
+  </div>
+  </div>
+        <a href="#" class="btn">Home</a>
+  </div>
+</div>
+
+    <!-- --------contact--------- -->
+
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contato</h1>
+            <p><i class="fa-solid fa-paper-plane"></i>margaze@me.com</p>
+            <p><i class="fa-solid fa-square-phone"></i>(+55) 14 998489759</p>
+            <div class="social-icons">
+              <a href="https://www.linkedin.com/in/marcio-azevedo-5b1358110/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+              <a href="https://github.com/Margaze" target="_blank"><i class="fa-brands fa-github"></i></a>
+            
+            </div>
+
+            <!-- documento para download abaixo  -->
+            <!-- <a href="image/bgtech.jpg" download class="btn btn2">Download CV</a> -->
+
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="seu nome" required>
+              <input type="email" name="Email" placeholder="seu e-mail" required>
+              <textarea name="Message" rows="6" placeholder="deixe sua mensagem"></textarea>
+              <button type="submit" class="btn btn2">Enviar</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+        <div class="copyright">
+          <p>copyright @ Margaze. </p>
+        </div>
+    </div>
+
+
+<!-- -----------script---------- -->
+<script src="script.js"></script>
+
+
+</body>
+</html>
