@@ -85,14 +85,3 @@ btnCloseC.onclick = function(){
 
 
 
-
-
-// // Well
-// document.querySelector('.items-telec')
-// .addEventListener("wheel", event => {
-// if(event.deltaY>0){
-//   event.target.scrollBy(600, 0)
-// } else {
-//   event.target.scrollBy(-600, 0)
-// }
-// } )

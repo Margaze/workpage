@@ -400,10 +400,10 @@
 
           </div>
           <div class="contact-right">
-            <form name="submit-to-google-sheet">
-              <input type="text" name="Name" placeholder="seu nome" required>
-              <input type="email" name="Email" placeholder="seu e-mail" required>
-              <textarea name="Message" rows="6" placeholder="deixe sua mensagem"></textarea>
+            <form action="https://formsubmit.co/margazepage@gmail.com" method="POST">
+              <input type="text" name="Name" placeholder="seu nome" required id="nome">
+              <input type="Email" name="Email" placeholder="seu e-mail" required id="email">
+              <textarea name="Message" rows="6" placeholder="deixe sua mensagem" id="mensagem"></textarea>
               <button type="submit" class="btn btn2">Enviar</button>
             </form>
             <span id="msg"></span>
@@ -418,6 +418,8 @@
 
 <!-- -----------script---------- -->
 <script src="script.js"></script>
+<script src="https://apis.google.com/js/api.js"></script>
+
 
 
 </body>
