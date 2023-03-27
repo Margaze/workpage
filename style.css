@@ -218,7 +218,14 @@ nav ul li a:hover::after{
 
 .tab-contents.active-tab{
   display: block;
+}
 
+#img-name{
+  border-radius: 10px;
+  border: #b98b59 1px solid;
+  text-align: center;
+  padding: 10px;
+  background: #262626;
 }
 
 /* ------  services ------- */
