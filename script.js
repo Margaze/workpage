@@ -31,17 +31,6 @@ sidemenu.style.right = "-200px";
 
 
 
-// form
-const scriptURL = 'https://script.google.com/macros/s/AKfycbw3A6LMB522bODZa5Pin_gRz_rBB84-ayPMb458pbd3ULGHoDS0Jt11-RP8idXLPq60/exec'
-const form = document.forms['submit-to-google-sheet']
-
-form.addEventListener('submit', e => {
-e.preventDefault()
-fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-  .then(response => console.log('Success!', response))
-  .catch(error => console.error('Error!', error.message))
-})
-
 
 // modal
 const btn = document.querySelector('#link')
