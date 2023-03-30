@@ -226,6 +226,7 @@ nav ul li a:hover::after{
   text-align: center;
   padding: 10px;
   background: #262626;
+  display: none;
 }
 
 /* ------  services ------- */
@@ -726,6 +727,15 @@ nav .fa-solid{
         gap: 3rem;
         align-items: center;
         margin-top: 6rem;
+      }
+
+      #img-name{
+        border-radius: 10px;
+        border: #b98b59 1px solid;
+        text-align: center;
+        padding: 10px;
+        background: #262626;
+        display: block;
       }
 
  }
