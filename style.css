@@ -83,12 +83,13 @@ nav ul li a:hover::after{
 }
 
 .header-text {
-  margin: 63rem 0;
+  margin: 70rem 0;
   font-size: 3rem;
 }
 
 .header-text h1{
   font-size: 6rem;
+  margin:20px 0;
 }
 
 .header-text span {
@@ -152,17 +153,19 @@ nav ul li a:hover::after{
   font-size: 18px;
 }
 
-.tab-links strong {  
+.tab-titles p {  
   font-size: 1.8rem;
+  transition: color .5s;
   color: #Fff;
+
+}
+
+.tab-titles p:hover {  
+  color: #f6e6d1;
 }
 
 
-.tab-links,
-.tab-dados,
-.tab-voz,
-.tab-cloud
-{
+.tab-links{
   font-size: 1.8rem;
   margin-right: 5rem;
   font-weight: 500;
@@ -172,12 +175,7 @@ nav ul li a:hover::after{
 }
 
 
-
-.tab-links::after,
-.tab-dados::after,
-.tab-voz::after,
-.tab-cloud::after
-{
+.tab-links::after{
   content: '';
   width: 0;
   height: 3px;
@@ -186,25 +184,18 @@ nav ul li a:hover::after{
   left: 0;
   bottom: -8px;
   transition: 0.5s;
+
+
 }
 
-
-.tab-links.active-link::after,
-.tab-dados.active-link::after,
-.tab-voz.active-link::after,
-.tab-cloud.active-link::after{
+.tab-links.active-link::after{
   width: 50%;
-
+  
 }
 
-
-.tab-contents ul li,
-.tabconteudo ul li,
-.tabcontvoz ul li,
-.tabcontcloud ul li{
+.tab-contents ul li {
   list-style: none;
   margin: 1rem 0;
-    
 }
 
 #experience ul li:last-child, 
@@ -213,26 +204,19 @@ nav ul li a:hover::after{
 }
 
 
-.tab-contents ul li span,
-.tabconteudo ul li span,
-.tabcontvoz ul li span,
-.tabcontcloud ul li span {
+.tab-contents ul li span{
   color: #b0702a;
   font-size: 1.8rem;
- 
+  
 }
 
-.tab-contents,
-.tabconteudo,
-.tabcontvoz,
-.tabcontcloud {
+.tab-contents{
   display: none;
+  
+
 }
 
-.tab-contents.active-tab,
-.tabconteudo.active-tab,
-.tabcontvoz.active-tab,
-.tabcontcloud.active-tab{
+.tab-contents.active-tab{
   display: block;
 }
 
@@ -472,10 +456,14 @@ dialog .tab-links{
   
 }
 
-dialog .tab-links:hover{ 
-  color: #111;
+dialog .tab-links:hover{
  
+  color: #111;
+  
 }
+
+
+
 
 .modal-links .tab-titles  {
 display: flex;
@@ -522,6 +510,7 @@ gap: 2rem;
 
 .button p:hover{
   background: linear-gradient(rgba(0,0,0,0.1), #ffe4a9); 
+
 }
 
 
@@ -617,18 +606,11 @@ form .btn2 {
   margin-top: 20px;
 }
 
-#number {
-  text-decoration: none;
-  color: inherit;
-}
-
 /* ---------css medias queries --------- */
 
 nav .fa-solid{
   display: none;
 }
-
-
 
 @media only screen and (max-width: 600px){
 
@@ -756,23 +738,4 @@ nav .fa-solid{
         display: block;
       }
 
-
-
  }
-
- @media  (max-width: 850px){
-
-  .header-text{
-  display: none;
-   
- }
-
- #img-name{
-  border-radius: 10px;
-  border: #b98b59 1px solid;
-  text-align: center;
-  padding: 10px;
-  background: #262626;
-  display: block;
-}
-}

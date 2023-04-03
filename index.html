@@ -171,21 +171,21 @@
         <div class="container-dialog">
                                  
           <div class="tab-titles">
-          <p class="tab-dados active-link" onclick="opendado('linkdedicado')">
+          <p class="tab-links active-link" onclick="opentab('linkdedicado')">
             <i class="fa-solid fa-file-lines"></i> 
             <strong>LINK DEDICADO</strong>
           </p>
-          <p class="tab-dados " onclick="opendado('lan2lan')">
+          <p class="tab-links " onclick="opentab('lan2lan')">
             <i class="fa-solid fa-file-lines"></i>
             <strong>LAN TO LAN</strong>
           </p>
-          <p class="tab-dados" onclick="opendado('transporte')">
+          <p class="tab-links" onclick="opentab('transporte')">
             <i class="fa-solid fa-file-lines"></i>
             <strong>TRANSPORTE PTT </strong>
           </p>
         </div>
                         
-        <div class="tabconteudo active-tab" id="linkdedicado">
+        <div class="tab-contents active-tab" id="linkdedicado">
 
             <ul>
             <li><span>Velocidade e confiabilidade:</span> O link dedicado é uma conexão exclusiva desenhada para Corporações que necessitam de alta disponibilidade, estabilidade e garantia de banda, o que resulta em uma conexão mais rápida e confiável.</li>
@@ -198,7 +198,7 @@
                         
         </div>
 
-        <div class="tabconteudo" id="lan2lan">
+        <div class="tab-contents" id="lan2lan">
           <ul>
             <li><span>Matriz e filiais interligadas</span><br>Com uma conexão LAN to LAN, as redes locais podem compartilhar recursos e informações com muito mais rapidez e eficiência, proporcionando alta performance, economia de recursos e confiabilidade da rede.</li>
               <li><span>Maior segurança</span><br>A comunicação entre duas redes locais via LAN to LAN é feita através de uma conexão privada e segura, reduzindo o risco de ataques cibernéticos e invasões de privacidade.</li>
@@ -209,7 +209,7 @@
            
          </div>
 
-        <div class="tabconteudo" id="transporte">
+        <div class="tab-contents" id="transporte">
           <ul>
             <li><span>Transporte PTT-SP</span><br>Melhor desempenho na conexão direta com seus pares com presença no PTT. O IX.br proporciona a ligação direta, permitindo que muitos Sistemas Autonômos (AS) troquem tráfego diretamente. A interligação de diversos AS em um IX, ou Ponto de Troca de Tráfego (PTT), simplifica o trânsito da Internet e diminui o número de redes até um determinado destino. </li>
           
@@ -245,18 +245,18 @@
           <dialog class="modal-voz">  
             <div class="container-dialog">               
             <div class="tab-titles">
-            <p class="tab-voz active-link " onclick="openovoz('pabx')">
+            <p class="tab-links active-link " onclick="opentab('pabx')">
               <i class="fa-solid fa-file-lines"></i>
               <strong>PABX CLOUD</strong>
             </p>
-            <p class="tab-voz " onclick="openovoz('did')">
+            <p class="tab-links " onclick="opentab('did')">
               <i class="fa-solid fa-file-lines"></i>
               <strong>NÚMERO DID</strong>
             </p>
             
           </div>
                           
-          <div class="tabcontvoz active-tab" id="pabx">
+          <div class="tab-contents active-tab" id="pabx">
             <ul>
               <li>O <strong>PABX Cloud</strong> é uma solução telefônica baseada na nuvem que oferece diversas vantagens para empresas de todos os tamanhos. </li>   
               <li><span>Flexibilidade: </span><br>Os usuários podem acessar as funcionalidades do sistema de qualquer lugar com acesso à internet, uma solução flexível para empresas que têm funcionários em diferentes locais ou que precisam de mobilidade.</li>   
@@ -266,7 +266,7 @@
 
           </div>
   
-          <div class="tabcontvoz" id="did">
+          <div class="tab-contents" id="did">
             <ul>
                 <li><span>Número DID <i>(Direct Inward Dialing)</i></span><br>Conhecido também como número Virtual DID, é um numero virtual de uma determinada região, como por exemplo o DDD (011) São Paulo - Capital, onde sua operação independente de onde esteja fisicamente, pode marcar presença em Capitais estratégicas ao seu negócio.</li>
                 Exemplo: Sua equipe esta localmente no interior e São Paulo, mas vende para todo Brasil. A empresa pode utilizar de DID 011 São Paulo, 021 Rio, 071 Salvador, entre outras - facilitando para seu cliente ligar com custo local e a empresa se fazer presente nas Capitais. 
@@ -305,20 +305,20 @@
       <dialog class="modal-cloud">
           <div class="container-dialog">                        
         <div class="tab-titles">
-          <p class="tab-cloud active-link " onclick="opencloud('cloudbackup')">
+          <p class="tab-links active-link " onclick="opentab('cloudbackup')">
             <i class="fa-solid fa-file-lines"></i>
             <strong>CLOUD BACKUP <br> DISASTER RECOVERY</strong>
           </p>
           <!-- <p class="tab-links " onclick="opentab('disaster')">
             <strong>DISASTER RECOVERY</strong>
           </p> -->
-          <p class="tab-cloud" onclick="opencloud('colocation')">
+          <p class="tab-links" onclick="opentab('colocation')">
             <i class="fa-solid fa-file-lines"></i>
             <strong>CO-LOCATION </strong>
           </p>
         </div>
                     
-    <div class="tabcontcloud active-tab" id="cloudbackup">
+    <div class="tab-contents active-tab" id="cloudbackup">
   <ul>  
 <li>O <span>Cloud Backup</span> e o <span>Disaster Recovery</span> são soluções que utilizam a nuvem para proteger os dados e garantir a continuidade dos negócios em caso de falhas ou desastres. Algumas das vantagens de utilizar essas soluções incluem:</li>
 
@@ -348,7 +348,7 @@
                      </ul>
                    </div> -->
           
-  <div class="tabcontcloud" id="colocation">
+  <div class="tab-contents" id="colocation">
       <ul>
         <li><span>Colocation</span> é a prática de alojar os servidores e equipamentos de uma empresa em um data center de terceiros. Algumas das vantagens de utilizar colocation incluem:</li>
 
@@ -388,7 +388,7 @@
           <div class="contact-left">
             <h1 class="sub-title">Contato</h1>
             <p><i class="fa-solid fa-envelope"></i>margaze@me.com</p>
-            <p id="number"><i class="fa-solid fa-square-phone"></i>(+55) 14 998489759</p>
+            <p><i class="fa-solid fa-square-phone"></i>(+55) 14 998489759</p>
             <div class="social-icons">
               <a href="https://www.linkedin.com/in/marcio-azevedo-5b1358110/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
               <a href="https://github.com/Margaze" target="_blank"><i class="fa-brands fa-github"></i></a>
