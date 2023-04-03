@@ -72,5 +72,55 @@ btnCloseC.onclick = function(){
 }
 
 
+// telecom Links
+
+let tabdados = document.getElementsByClassName('tab-dados');
+let tabconteudos = document.getElementsByClassName('tabconteudo');
+
+function opendado(tabnome){
+for(tabdado of tabdados){
+tabdado.classList.remove('active-link')
+}
+for(tabconteudo of tabconteudos){
+  tabconteudo.classList.remove('active-tab')
+}
+event.currentTarget.classList.add('active-link');
+document.getElementById(tabnome).classList.add('active-tab')
+
+}
+
+// telecom Voz
+
+let tabvoz = document.getElementsByClassName('tab-voz');
+let tabcontvoz = document.getElementsByClassName('tabcontvoz');
+
+function openovoz(tabnome){
+for(tabvz of tabvoz){
+tabvz.classList.remove('active-link')
+}
+for(tabcontv of tabcontvoz){
+  tabcontv.classList.remove('active-tab')
+}
+event.currentTarget.classList.add('active-link');
+document.getElementById(tabnome).classList.add('active-tab')
+
+}
+
+// telecom cloud
+
+let tabcloud = document.getElementsByClassName('tab-cloud');
+let tabcontcloud = document.getElementsByClassName('tabcontcloud');
+
+function opencloud(tabnome){
+for(tabcl of tabcloud){
+tabcl.classList.remove('active-link')
+}
+for(tabconcl of tabcontcloud){
+  tabconcl.classList.remove('active-tab')
+}
+event.currentTarget.classList.add('active-link');
+document.getElementById(tabnome).classList.add('active-tab')
+
+}
 
 
